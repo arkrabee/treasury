@@ -1,4 +1,4 @@
 const det = {
     name: "Treasury",
-    brand: "media/images/treasury.webp"
+    brand: "treasury.webp"
 }

@@ -2,21 +2,21 @@
 const resources = {
     css: [
         "ark.css",
-        "css/style.css",
-        "css/folder.css",
-        "css/main.css",
-        "css/navbar.css",
+        "style.css",
+        "folder.css",
+        "main.css",
+        "navbar.css",
         
     ],
     js: [
         "ark.js",
-        "js/modal.js",
-        "js/layout.js",
-        "js/script.js",
+        "modal.js",
+        "layout.js",
+        "script.js",
         "file-manager.js",
-        "js/folder.js",
-        "js/main.js",
-        "js/secure.js",
+        "folder.js",
+        "main.js",
+        "secure.js",
     ]
 };
 

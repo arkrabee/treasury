@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+* {
+    user-select: none;
+}
+.us {
+    user-select: default;
+}
+
+.navbar {
+    background-color: #1e1e1e;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #FFD95C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.file-manager {
+    padding: 20px;
+    background-color: #121212;
+    color: white;
+    min-height: 100vh;
+}
+
+.breadcrumbs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 16px;
+    width: 100vh;
+    flex-direction: row;
+}
+#breadcrumb-container {
+    padding: 10px;
+    display: block;
+    width: 100%;
+    font-size: 15px;
+}
+#back-button {
+    width: auto;
+    display: block;
+    font-size: 15px;
+
+}
+.file-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.folder, .file {
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.folder:hover, .file:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s;
+}
+
+.folder-icon {
+    width: 64px;
+    height: 64px;
+    margin: auto;
+}
+.file-icon {
+    padding: 0px;
+    width: -3px;
+    height: 62px;
+
+}
+
+
+
+.pp {
+    display: block;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+
+
+.container {
+    min-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #ff758c;
+    text-align: center;
+}
+
+p, li {
+    line-height: 1.6;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background: linear-gradient(135deg, #ff7eb3, #ff758c);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.button:hover {
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+}

@@ -4,7 +4,7 @@ const det = {
 }
 
 
-document.head.innerHTML += `
+document.querySelector("head").innerHTML += `
 <link href='${det.brand}' rel='icon'>
 `
 

@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+    background-color: #1e1e1e;
+    color: #dcdcdc;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2c2f33;
+    color: #dcdcdc;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    z-index: 1000;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    background-color: #2c2f33;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-top: 50px; /* Adjusted for navbar */
+}
+
+.sidebar .top-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sidebar .top-bar input {
+    flex-grow: 1;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: #3b3e44;
+    color: #fff;
+}
+
+.sidebar .top-bar .icon {
+    width: 24px;
+    height: 24px;
+    background-color: #7289da;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.sidebar .menu {
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.sidebar .menu a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 5px;
+    background-color: #3b3e44;
+    border-radius: 5px;
+}
+
+.sidebar .menu a:hover {
+    background-color: #7289da;
+}
+
+/* Main Content Area */
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #1e1e1e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px; /* Adjusted for navbar */
+}
+
+.content .text-editor {
+    width: 80%;
+    height: 80%;
+    padding: 15px;
+    background-color: #2c2f33;
+    border: 1px solid #444;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    line-height: 1.5;
+    outline: none;
+    overflow-y: auto;
+    color: #dcdcdc;
+}
+
+
+#sidebar-search {
+    outline: none;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treasury - Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+
+<body>
+    <!-- Login Page -->
+    <div class="navbar">Treasury</div>
+    <div id="login-page" class="login-container">
+        <div class="login-box">
+            <h1>Welcome to Treasury</h1>
+            <p>Please enter your password to continue</p>
+            <input type="password" value="a" id="password" placeholder="Enter Password">
+            <button id="login-btn">Login</button>
+            <p id="login-error" class="error-message"></p>
+        </div>
+    </div>
+
+    <!-- Homepage Content -->
+    <div id="homepage" class="hidden">
+        <div class="navbar"></div>
+        <div class="container">
+
+
+
+            <div class="sidebar"></div>
+            <div id="file-manager" style="margin-top: 100px;" class="file-manager">
+                <div class="breadcrumbs">
+                    <button id="back-button" onclick="goBack()">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="25px" viewBox="0 -960 960 960" width="25px"
+                            fill="dark">
+                            <path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z" />
+                        </svg>
+                    </button>
+                    <span id="breadcrumb-container">/Home</span>
+                </div>
+
+
+
+                <!-- Modal Structure -->
+                <div id="modal" class="modal">
+                    <div class="modal-header">
+                        <div class="modal-close" onclick="closeModal()">&times;</div>
+                        <h2 id="modal-title"></h2>
+                    </div>
+                    <p id="modal-message"></p>
+                </div>
+
+
+
+                <div id="file-container" class="file-container"></div>
+            </div>
+        </div>
+
+        <!-- Modal Structure -->
+
+
+
+
+
+
+
+        
+
+    </div>
+    <script src="det.js"></script>
+    <script src="loader.js"></script>
+</body>
+
+</html>

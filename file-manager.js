@@ -12,6 +12,16 @@ const folderStructure = {
         },
 
         {
+            name: "Sahal and Shammas",
+            type: "folder",
+            children: [
+                { name: "sahal.docx", type: "file" },
+                { name: "shammas.docx", type: "file" },
+                { name: "super.jpg", type: "file" },
+            ],
+        },
+        
+        {
             name: "Documents",
             type: "folder",
             children: [

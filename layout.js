@@ -5,8 +5,6 @@ const sidebar_layout = `
                 </div>
                 <div class="menu">
                     <a href="ark.html">Retrieve</a>
-                    <a href="">Option 2</a>
-                    <a href="#">Option 3</a>
                     <a href="pp.html">Privacy policy</a>
                 </div>
 
